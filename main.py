@@ -1,4 +1,5 @@
 import streamlit
+import pandas
 
 streamlit.set_page_config(layout='wide')
 
@@ -19,3 +20,6 @@ Below you can find some of the apps I have built in Python. Feel free to contact
 '''
 
 streamlit.write(text)
+
+col3, col4 = streamlit.columns(2)
+
