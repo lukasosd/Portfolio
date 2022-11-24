@@ -13,3 +13,9 @@ with col2:
     Hi! I am Łukasz Gurgul
     '''
     streamlit.write(content)
+
+text = '''
+Below you can find some of the apps I have built in Python. Feel free to contact me!
+'''
+
+streamlit.write(text)
