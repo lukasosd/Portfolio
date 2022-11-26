@@ -3,7 +3,7 @@ import pandas
 
 streamlit.set_page_config(layout='wide')
 
-col1, col2 = streamlit.columns([0.8, 2])
+col1, col2 = streamlit.columns(2)
 
 with col1:
     streamlit.image('images/photo.jpg', width=300,)
